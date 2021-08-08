@@ -1,0 +1,9 @@
+.van-password-input__error-info, .van-password-input__info {
+  margin: 16px;
+}
+
+.van-picker__toolbar button {
+  margin: 0;
+  width: auto;
+  height: auto;
+}

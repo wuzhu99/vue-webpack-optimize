@@ -1,0 +1,49 @@
+$maxWith: 414px;
+
+//轮播图
+@mixin banner_wh($width,$height) {
+  width: $width;
+  height: $height;
+  img {
+    width: 100%;
+    height: $height;
+  }
+}
+
+//宽高
+@mixin wh($width,$height) {
+  width: $width;
+  height: $height;
+}
+
+//字体大小颜色
+@mixin font($size,$color) {
+  font-size: $size;
+  color: $color;
+}
+
+//icon
+@mixin icon($url) {
+  background: url($url) no-repeat;
+  background-size: contain;
+}
+
+//bg
+@mixin bg($url) {
+  background: url($url) no-repeat;
+  background-size: cover;
+}
+
+//底部固定按钮
+@mixin bottom_btn($bottom) {
+  position: fixed;
+  left: 0;
+  bottom: $bottom;
+  width: 100%;
+  padding: 0 3%;
+}
+
+//max-width
+@mixin max_width() {
+  max-width: $maxWith;
+}

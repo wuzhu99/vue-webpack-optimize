@@ -1,0 +1,52 @@
+{
+  "name": "vue-webpack-optimize",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --write src",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build-agreement:test": "vue-cli-service build agreement --mode test",
+    "build-agreement:prod": "vue-cli-service build agreement --mode prod", 
+    "build-information:test": "vue-cli-service build information --mode test",
+    "build-information:prod": "vue-cli-service build information --mode prod",
+    "build-bus:test": "vue-cli-service build bus --mode test",
+    "build-bus:prod": "vue-cli-service build bus --mode prod"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.0.0",
+    "dsbridge": "^3.1.4",
+    "gcoord": "^0.3.1",
+    "js-sha1": "^0.6.0",
+    "jsencrypt": "^3.1.0",
+    "md5": "^2.3.0",
+    "vant": "^2.12.9",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^5.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "glob": "^7.1.6",
+    "image-webpack-loader": "^7.0.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.4.0"
+  }
+}

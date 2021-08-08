@@ -1,0 +1,92 @@
+import Vue from "vue";
+import {
+  Cell,
+  Toast,
+  Dialog,
+  DropdownMenu,
+  DropdownItem,
+  Loading,
+  List,
+  Rate,
+  ImagePreview,
+  Image,
+  Area,
+  Popup,
+  Picker,
+  Radio,
+  RadioGroup,
+  Icon,
+  Search,
+  Swipe,
+  SwipeItem,
+  Tab,
+  Tabs,
+  Overlay,
+  PullRefresh,
+  SwipeCell,
+  Switch,
+  Checkbox,
+  CheckboxGroup,
+  Stepper,
+  Sku,
+  Button,
+  CountDown,
+  DatetimePicker,
+  Field,
+  Collapse,
+  CollapseItem,
+  Lazyload,
+  Steps,
+  Step,
+  Calendar,
+  ActionSheet,
+  Tag,
+  PasswordInput,
+  NumberKeyboard
+} from "vant";
+Vue.use(Loading);
+Vue.use(PasswordInput);
+Vue.use(NumberKeyboard);
+Vue.use(Tag);
+Vue.use(ActionSheet);
+Vue.use(Cell);
+Vue.use(Toast);
+Vue.use(Dialog);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(List);
+Vue.use(Rate);
+Vue.use(ImagePreview);
+Vue.use(Image);
+Vue.use(Area);
+Vue.use(Popup);
+Vue.use(Picker);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(Icon);
+Vue.use(Search);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(Overlay);
+Vue.use(PullRefresh);
+Vue.use(SwipeCell);
+Vue.use(Switch);
+Vue.use(Checkbox);
+Vue.use(CheckboxGroup);
+Vue.use(Stepper);
+Vue.use(Sku);
+Vue.use(Button);
+Vue.use(CountDown);
+Vue.use(DatetimePicker);
+Vue.use(Field);
+Vue.use(Collapse);
+Vue.use(CollapseItem);
+Vue.use(Lazyload);
+Vue.use(Step);
+Vue.use(Steps);
+Vue.use(Calendar);
+Vue.prototype.$toast = Toast;
+Vue.prototype.$dialog = Dialog;
+Vue.prototype.$imagePreview = ImagePreview;
